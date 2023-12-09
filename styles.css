@@ -1,0 +1,26 @@
+body {
+
+    background-color:black;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    
+}
+
+#count-el{
+    background-image: url("cookie.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    padding: 120px;
+
+    font-size: 35;
+    
+}
+
+
+
+
+
+
+
