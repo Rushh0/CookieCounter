@@ -1,21 +1,43 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
 
+body {
     background-color:black;
-    text-align: center;
+    align-content: center;
     color: white;
-    font-family: sans-serif;
-    
+    font-family: "Instrument Sans", sans-serif;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+    border-style: none;
+    font-size: 14px;
+    font-family: "Instrument Sans", sans-serif;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.github-link-btn {
+    text-decoration: none;
+    color: black;
 }
 
 #count-el{
     background-image: url("cookie.png");
     background-repeat: no-repeat;
     background-position: center;
-
     padding: 120px;
-
-    font-size: 35;
-    
+    font-size: 45px;
+    justify-content: center;
 }
 
 
